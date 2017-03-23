@@ -1,0 +1,10 @@
+- var styleSrc = '../css/index.css'
+- var page = 'index'
+
+include ./chips/head.jade
+body
+    include ./chips/nav.jade
+    div.sky
+        canvas#myCanvas(width="1920" height="1000")
+    script(src="../js/sky.js")
+    //- script(src="../js/nav.js")

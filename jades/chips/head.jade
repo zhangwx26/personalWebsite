@@ -1,0 +1,17 @@
+case page
+    when 'index'
+        - var title = '张文轩的个人网站'
+    when 'canvasGame'
+        - var title = '张文轩的游戏——小精灵'
+    when 'puzzle'
+        - var title = '张文轩的游戏——拼图'
+    when 'mole'
+        - var title = '张文轩的游戏——打地鼠'
+
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        title= title
+        link(rel="stylesheet" href="../css/public.css")
+        link(rel="stylesheet" href=styleSrc)

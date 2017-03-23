@@ -1,0 +1,13 @@
+{
+    "name": "personalWebsite"
+  , "version": "1.0.0"
+  , "private": true
+  , "scripts": {
+      "start": "node app.js"
+    }
+  , "dependencies": {
+      "express": "latest"
+    , "jade": ">= 0.0.1"
+    , "body-parser" : "latest"
+  }
+}

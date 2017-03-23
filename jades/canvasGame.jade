@@ -1,0 +1,13 @@
+- var styleSrc = '../css/game.css'
+- var page = 'canvasGame'
+
+include ./chips/head.jade
+meta(name="viewport" content="width=600, maximum-scale=1.0, user-scalable=0")
+body
+    div#wx_pic(style="display:none")
+        img(src="../images/icon.png" alt="小精灵")
+    h1 Canvas Game 小精灵
+    p.description 按住空格/屏幕移动位置，松开后墙将倒下，别让墙砸中你！
+    div.canvas-father
+        canvas#myCanvas(width="600" height="530") 您的浏览器不支持canvas
+    script(src="../js/game.js")

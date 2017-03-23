@@ -1,0 +1,25 @@
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+.sky {
+    overflow: hidden;
+
+    position: relative;
+    
+    height: 1000px;
+    
+    background: url(../images/earth.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sky > canvas {
+    position: absolute;
+    left: 50%;
+
+    margin-left: -960px;
+    width: 1920px;
+    height: 100%;
+}

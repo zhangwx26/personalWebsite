@@ -1,0 +1,86 @@
+.introduce {
+	width: 100%;
+
+	text-align: center;
+}
+
+.button-container {
+	margin: 10px auto;
+	width: 400px;
+	height: 30px;
+
+	line-height: 30px;
+}
+
+.button {
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding-right: 10px;
+	padding-left: 10px; 
+	height: 100%;
+}
+
+.button:hover {
+	cursor: pointer;
+
+	color: #fff;
+	background-color: rgb(0, 90, 171);
+}
+
+.text {
+	margin-left: 10px;
+	border: 1px solid gray;
+	width: 50px;
+	height: 100%;
+
+	text-align: center;
+}
+
+.mole-father {
+	margin: 35px auto;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	padding: 15px 0;
+	width: 350px;
+	height: 210px;
+}
+
+.mole-father li {
+	margin: 5px;
+	border: 1px solid gray;
+	border-radius: 23px;
+	width: 23px;
+	height: 23px;
+
+	list-style: none;
+}
+
+.mole-father li:hover {
+	cursor: pointer;
+}
+
+.cycle {
+	display: none;
+
+	margin: 8px;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	width: 6px;
+	height: 6px;
+
+	background-color: #fff;
+}
+
+.instruction {
+	margin-right: auto;
+	margin-left: auto;
+	width: 680px;
+}
+
+.instruction p:first-child {
+	font-weight: bold;
+}
+
+.instruction p:last-child {
+	margin-left: 10px;
+}

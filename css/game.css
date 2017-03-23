@@ -1,0 +1,26 @@
+body {
+    font-family: "microsoft yahei";
+
+    background-color: #e5e5e5;
+
+    -webkit-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+h1 {
+    margin: 10px;
+
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.canvas-father {
+    margin: 0 auto;
+    /*border: 1px solid gray;*/
+    width: 600px;
+    height: 530px;
+}

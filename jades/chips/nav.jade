@@ -1,0 +1,19 @@
+mixin list(imgSrc, title, gameHref)
+    li.fl
+        a(href=gameHref)
+            div.gameName= title
+            img(src=imgSrc)
+div.nav-container
+    ul.nav.clear-f.fix
+        li
+            a(href="/") 首页
+        li
+            a(href="#") 简介
+        li 
+            a 游戏
+                ul.game-container
+                    +list("../images/genius.jpg", "小精灵", "/jades/canvasGame")
+                    +list("../images/puzzle.png", "拼图", "/jades/puzzle")
+                    +list("../images/mole.png", "打地鼠", "/jades/mole")
+        li
+            a(href="#") 留言板

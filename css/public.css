@@ -1,0 +1,135 @@
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+
+    font-family: "microsoft yahei";
+}
+
+a, li {
+    list-style: none;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+
+    cursor: pointer;
+}
+
+h1 {
+    width: 100%;
+
+    text-align: center;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.fix {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.hide {
+    display: none;
+}
+
+.clear-f:after {
+    display: block;
+    visibility: hidden;
+    height: 0;
+    clear: both;
+    content: ".";
+}
+
+.nav-container {
+    position: fixed;
+    z-index: 99;
+    left: 50%;
+
+    transform: translate(-50%, 0);
+}
+
+.nav > li {
+    position: relative;
+
+    float: left;
+
+    border-radius: 3px;
+    /*border: 1px solid white;*/
+    padding: 20px;
+    width: 100px;
+    height: 40px;
+
+    text-align: center;
+    line-height: 40px;
+}
+
+.nav > li:hover {
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.nav > li:nth-child(3):hover .game-container {
+    display: block;
+
+    top: 80px;
+    left: -200px;
+
+    border-radius: 3px;
+
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.game-container {
+    display: none;
+
+    position: absolute;
+    z-index: 99;
+
+    width: 600px;
+}
+
+.game-container li {
+    position: relative;
+
+    width: 200px;
+    height: 200px;
+}
+
+.game-container li img, .gameName, .masked {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 80%;
+    height: 80%;
+
+    transform: translate(-50%, -50%);
+}
+
+.gameName {
+    z-index: 999;
+
+    text-align: center;
+    line-height: 160px;
+
+    background-color: rgb(0, 0, 0);
+
+    opacity: 0;
+
+    transition: all 0.5s ease;
+}
+
+.gameName:hover {
+    opacity: 0.6;
+
+    transition: all 0.5s ease;
+}

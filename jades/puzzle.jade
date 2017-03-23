@@ -1,0 +1,16 @@
+- var styleSrc = '../css/puzzle.css'
+- var page = 'puzzle'
+
+include ./chips/head
+script(type="text/javascript" src="../js/jQuery.js")
+body
+    div.fix-puzzle.clear-f
+        div.puzzle
+        div.reference
+        span.hard-text
+        input.radio-style(type="radio" name="hardLevel" value="1")
+        简单
+        input.radio-style(type="radio" name="hardLevel" value="2")
+        困难
+        input.sure(type="button" value="确定 | 重新开始")
+    script(type="text/javascript" src="../js/puzzle.js")
