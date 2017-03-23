@@ -71,10 +71,20 @@
 	background-color: #fff;
 }
 
-.instruction {
-	margin-right: auto;
-	margin-left: auto;
-	width: 680px;
+@media screen and (max-device-width: 480px) {
+	.instruction {
+		margin-right: auto;
+		margin-left: auto;
+		width: 400px;
+	}
+}
+
+@media screen and (min-device-width: 480px) {
+	.instruction {
+		margin-right: auto;
+		margin-left: auto;
+		width: 680px;
+	}
 }
 
 .instruction p:first-child {

@@ -1,12 +1,14 @@
 - var styleSrc = '../css/puzzle.css'
 - var page = 'puzzle'
+- var width = '500'
 
 include ./chips/head
+//- meta(name="viewport" content="width=500, initial-scale=1.0")
 script(type="text/javascript" src="../js/jQuery.js")
 body
     div.fix-puzzle.clear-f
-        div.puzzle
         div.reference
+        div.puzzle
         span.hard-text
         input.radio-style(type="radio" name="hardLevel" value="1")
         简单

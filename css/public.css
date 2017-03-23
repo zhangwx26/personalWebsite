@@ -3,9 +3,14 @@ html {
 }
 
 body {
+    margin: 0;
     width: 100%;
 
     font: normal 100% "microsoft yahei";
+}
+
+input {
+    cursor: pointer;
 }
 
 a, li {

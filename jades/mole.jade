@@ -1,8 +1,10 @@
 - var styleSrc = '../css/whac-a-mole.css'
 - var page = 'mole'
 - var introduce = "Test your skill.How many boxes(moles) can you check(hit) in 30 seconds?"
+- var width = '400'
 
 include ./chips/head.jade
+//- meta(name="viewport" content="width=500, initial-scale=1.0")
 script(type="text/javascript" src="../js/jQuery.js")
 body
     h1 Whac-a-mole
@@ -19,7 +21,5 @@ body
 
     div.instruction
         p Instruction:
-        p 1. click on the radio button(moles) as they are selected randomly by the computer.
-            br
-            2.point per hit, minus 1 point per miss.
+        p 1.click on the radio button(moles) as they are selected randomly by the computer.<br>2 .point per hit, minus 1 point per miss.
     script(type="text/javascript" src="../js/whac-a-mole.js")
