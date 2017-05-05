@@ -1,3 +1,5 @@
+var test = 124;
+
 var cavasBackground = function() {
     var sky = document.getElementsByClassName('sky')[0];
     var canvas = document.getElementById('myCanvas');
